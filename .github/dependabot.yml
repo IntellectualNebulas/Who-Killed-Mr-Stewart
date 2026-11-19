@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # Optional: restrict version updates exclusively to Flask
+    allow:
+      - dependency-name: "flask"
